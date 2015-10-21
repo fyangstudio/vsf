@@ -1,0 +1,25 @@
+{
+  "root": "./public",
+  "freeMarker": [
+    {
+      "url": "/",
+      "path": "ftl/test1.ftl",
+      "data": {"name": "yf"}
+    }
+  ],
+  "GET": [
+    {
+      "url": "/getList",
+      "input": {
+        "limit": 10,
+        "offset": 0
+      },
+      "output": {
+        "code": 200,
+        "result": [],
+        "total": 0
+      }
+    }
+  ],
+  "POST": []
+}
