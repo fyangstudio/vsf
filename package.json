@@ -1,0 +1,10 @@
+{
+  "name": "virtualServer-freemarker",
+  "version": "0.1.0",
+  "bin": {
+    "vs-f": "./bin/vs-f"
+  },
+  "dependencies": {
+
+  }
+}
