@@ -5,6 +5,11 @@
       "url": "/",
       "path": "ftl/test1.ftl",
       "data": {"name": "yf"}
+    },
+    {
+      "url": "/list",
+      "path": "ftl/test2.ftl",
+      "data": {"name": "yf"}
     }
   ],
   "GET": [

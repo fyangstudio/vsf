@@ -3,7 +3,7 @@
   "description": "Quickly build virtual server for early projects",
   "version": "0.1.0",
   "bin": {
-    "vs-f": "./bin/vs-f"
+    "vsf": "./bin/vsf"
   },
   "license": "MIT",
   "repository": {
