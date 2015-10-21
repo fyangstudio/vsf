@@ -11,8 +11,7 @@
     "url": "git+https://github.com/fyangstudio/virtualServer-freemarker.git"
   },
   "dependencies": {
-
-
+    "freemarker.js": ">= 2.14.7"
   },
   "engines": {
     "node": ">= 4.0.0"

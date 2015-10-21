@@ -26,5 +26,17 @@
       }
     }
   ],
-  "POST": []
+  "POST": [
+    {
+      "url": "/add",
+      "input": {
+        "name": "yf"
+      },
+      "output": {
+        "code": 200,
+        "result": [],
+        "message": ""
+      }
+    }
+  ]
 }
