@@ -10,7 +10,7 @@ $npm install vsf -g
 
 使用：
 
-必须有vs-config.json文件 （请使用绝对路径）所有资源路径均为vs-config.json文件配置root的相对路径
+必须有vs-config.json文件 （请使用绝对路径）所有资源路径均为vs-config.json文件配置root的相对路径，端口默认为8080
 
 1. 指向vs-config.json的目录
 ```
@@ -20,30 +20,41 @@ $vsf /User/yangfan/vsf-test/
 ```
 $vsf /User/yangfan/vsf-test/vs-config.json
 ```
-3.参照test目录下的使用，模拟数据结构  (vs-config.json)
+3.参照test目录下的使用，模拟数据结构  (vs-config.json) 
 
 ```
-{
-  "root": "./public",
+{ 
+  // ftl模板起始路径
+  "rootFm": "./public/ftl/",
+  // 资源文件起始路径
+  "rootRes": "./public",
+  // 模拟模板对象集合
   "freeMarker": [
     {
+      // 请求路径
       "url": "/",
-      "path": "ftl/test1.ftl",
+      // 模板位置
+      "path": "test1.ftl",
+      // 模板渲染数据
       "data": {"name": "yf"}
     },
     {
       "url": "/list",
-      "path": "ftl/test2.ftl",
+      "path": "test2.ftl",
       "data": {"name": "yf"}
     }
   ],
+  // 模拟GET请求集合
   "GET": [
     {
+      // 请求路劲
       "url": "/getList",
+      // 输入参数（会验证参数数量）
       "input": {
         "limit": 10,
         "offset": 0
       },
+      // 输出json
       "output": {
         "code": 200,
         "result": [],
@@ -51,12 +62,16 @@ $vsf /User/yangfan/vsf-test/vs-config.json
       }
     }
   ],
+  // 模拟POST请求集合
   "POST": [
     {
+      // 请求路劲
       "url": "/add",
+      // 输入参数（会验证参数数量）
       "input": {
         "name": "yf"
       },
+      // 输出json
       "output": {
         "code": 200,
         "result": [],
