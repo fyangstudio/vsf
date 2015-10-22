@@ -1,14 +1,15 @@
 {
-  "root": "./public",
+  "rootFm": "./public/ftl/",
+  "rootRes": "./public",
   "freeMarker": [
     {
       "url": "/",
-      "path": "ftl/test1.ftl",
+      "path": "test1.ftl",
       "data": {"name": "yf"}
     },
     {
       "url": "/list",
-      "path": "ftl/test2.ftl",
+      "path": "test2.ftl",
       "data": {"name": "yf"}
     }
   ],
