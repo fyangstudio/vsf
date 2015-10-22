@@ -12,7 +12,9 @@ $npm install vsf -g
 
 必须有vs-config.json文件 （请使用绝对路径）所有资源路径均为vs-config.json文件配置root的相对路径，端口默认为8080
 
-1. 指向vs-config.json的目录
+
+
+1.指向vs-config.json的目录
 ```
 $vsf /User/yangfan/vsf-test/
 ```
@@ -36,11 +38,6 @@ $vsf /User/yangfan/vsf-test/vs-config.json
       // 模板位置
       "path": "test1.ftl",
       // 模板渲染数据
-      "data": {"name": "yf"}
-    },
-    {
-      "url": "/list",
-      "path": "test2.ftl",
       "data": {"name": "yf"}
     }
   ],
