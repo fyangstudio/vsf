@@ -1,4 +1,4 @@
-virtualServer-freemarker适用于项目成立初期，数据结构尚未明确，并且通过freemarker渲染页面的工程。
+virtualServer-freemarker是一个模拟freemarker渲染的组件。适用于项目成立初期，数据结构尚未明确，并且通过freemarker渲染页面的工程。
 
 作用：1.方便定义可视化数据结构；2.服务未到位情况下模拟数据交互（附有简单参数验证）3.不依赖java工程便可本地实施开发 4.统一团队fake数据方式 
 
