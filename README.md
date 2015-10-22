@@ -10,7 +10,7 @@ $npm install vsf -g
 
 使用：
 
-必须有vs-config.json文件 （请使用绝对路径）所有模拟路径均为vs-config.json文件配置root的相对路径
+必须有vs-config.json文件 （请使用绝对路径）所有资源路径均为vs-config.json文件配置root的相对路径
 
 1. 指向vs-config.json的目录
 ```
