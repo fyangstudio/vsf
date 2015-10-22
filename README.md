@@ -14,11 +14,11 @@ $npm install vsf -g
 
 1. 指向vs-config.json的目录
 ```
-vsf /User/yangfan/vsf-test/
+$vsf /User/yangfan/vsf-test/
 ```
 2.指向vs-config.json文件
 ```
-vsf /User/yangfan/vsf-test/vs-config.json
+$vsf /User/yangfan/vsf-test/vs-config.json
 ```
 3.参照test目录下的使用，模拟数据结构  (vs-config.json)
 
