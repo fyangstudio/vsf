@@ -1,5 +1,5 @@
 {
-  "name": "virtualServer-freemarker",
+  "name": "vsf",
   "description": "Quickly build virtual server for early projects",
   "version": "0.1.0",
   "bin": {
@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fyangstudio/virtualServer-freemarker.git"
+    "url": "git+https://github.com/fyangstudio/vsf"
   },
   "dependencies": {
     "freemarker.js": ">= 1.2.0"
