@@ -22,12 +22,12 @@ $vsf /User/yangfan/vsf-test/
 ```
 $vsf /User/yangfan/vsf-test/vs-config.json
 ```
-3.参照test目录下的使用，模拟数据结构  (vs-config.json) 
+3.参照test目录下的使用，模拟数据结构参考如下  (vs-config.json) 
 
 ```
 { 
   // ftl模板起始路径
-  "rootFm": "./public/ftl/",
+  "rootFm": "./public/templates/",
   // 资源文件起始路径
   "rootRes": "./public",
   // 模拟模板对象集合
@@ -36,7 +36,7 @@ $vsf /User/yangfan/vsf-test/vs-config.json
       // 请求路径
       "url": "/",
       // 模板位置
-      "path": "test1.ftl",
+      "path": "pages/index/index.ftl",
       // 模板渲染数据
       "data": {"name": "yf"}
     }
