@@ -9,7 +9,8 @@
     <body>
         <@topbar/>
         <#assign t = 'hello'/>
-    ${t}
+        ${t}
+    <script src="/public/javascript/util.js"></script>
     <script src="/public/javascript/test.js"></script>
     </body>
     </body>
