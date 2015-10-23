@@ -187,7 +187,6 @@
         var _arr = [];
         this.$forIn(object, function (value, key) {
             if (this.$isFunction(value)) return;
-            value = JSON.stringify(value);
 
             if (!!encode) value = encodeURIComponent(value);
             _arr.push(encodeURIComponent(key) + '=' + value);
