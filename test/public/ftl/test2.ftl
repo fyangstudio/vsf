@@ -5,6 +5,7 @@
     <head>
         <title>test</title>
         <#include "./common.ftl">
+        <link rel="stylesheet" type="text/css" href="/css/test.css" />
     </head>
     <body>
         <@topbar/>
