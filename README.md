@@ -26,11 +26,16 @@ $vsf /User/yangfan/vsf-test/vs-config.json
 
 ```
 { 
-  // ftl模板起始路径
+  // ftl模板起始路径 （必须）
   "rootFm": "./public/templates/",
-  // 资源文件起始路径
+  // 资源文件起始路径  （必须）
   "rootRes": "./public",
-  // 模拟模板对象集合
+  // 插入页面的cookie  （非必须）
+  "cookies": {
+    "key1": "value1",
+    "key2": "value2"
+  },
+  // 模拟模板对象集合  （非必须）
   "freeMarker": [
     {
       // 请求路径
@@ -41,7 +46,7 @@ $vsf /User/yangfan/vsf-test/vs-config.json
       "data": {"name": "yf"}
     }
   ],
-  // 模拟GET请求集合
+  // 模拟GET请求集合  （非必须）
   "GET": [
     {
       // 请求路劲
@@ -59,7 +64,7 @@ $vsf /User/yangfan/vsf-test/vs-config.json
       }
     }
   ],
-  // 模拟POST请求集合
+  // 模拟POST请求集合  （非必须）
   "POST": [
     {
       // 请求路劲
