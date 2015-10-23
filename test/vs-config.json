@@ -1,6 +1,11 @@
 {
   "rootFm": "./public/ftl/",
   "rootRes": "./public",
+  "cookies": {
+    "user": "yang",
+    "key1": "value1",
+    "key2": "value2"
+  },
   "freeMarker": [
     {
       "url": "/",
