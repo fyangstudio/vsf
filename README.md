@@ -22,7 +22,11 @@ $vsf /User/yangfan/vsf-test/
 ```
 $vsf /User/yangfan/vsf-test/vs-config.json
 ```
-3.参照test目录下的使用，模拟数据结构参考如下  (vs-config.json) 
+3.参照test目录下的使用
+```
+$node test.js
+```
+模拟数据结构参考如下  (vs-config.json)
 
 ```
 { 
