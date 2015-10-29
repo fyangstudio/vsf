@@ -14,15 +14,15 @@ $npm install vsf -g
 
 
 
-1.指向vs-config.json的目录
+方法一  指向vs-config.json的目录  （适用于个人开发）
 ```
 $vsf /User/yangfan/vsf-test/
 ```
-2.指向vs-config.json文件
+方法二  指向vs-config.json文件 （适用于个人开发）
 ```
 $vsf /User/yangfan/vsf-test/vs-config.json
 ```
-3.参照test目录下的使用
+方法三  参照test目录下的使用  （适用于团队开发）
 项目目录下
 ```
 $npm install vsf
