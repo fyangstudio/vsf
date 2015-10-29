@@ -2,27 +2,27 @@ vsf是virtualServer-freemarker的缩写，它是一个模拟freemarker渲染的�
 
 作用：1.方便定义可视化数据结构；2.服务未到位情况下模拟数据交互（附有简单参数验证）3.不依赖java工程便可本地实施开发 4.统一团队fake数据方式 
 
-安装
+##安装
 
 ```
 $npm install vsf -g
 ```
 
-使用：
+##使用：
 
 必须有vs-config.json文件 （请使用绝对路径）所有资源路径均为vs-config.json文件配置root的相对路径，端口默认为8080
 
 
 
-方法一  指向vs-config.json的目录  （适用于个人开发）
+#####方法一  指向vs-config.json的目录  （适用于个人开发）
 ```
 $vsf /User/yangfan/vsf-test/
 ```
-方法二  指向vs-config.json文件 （适用于个人开发）
+#####方法二  指向vs-config.json文件 （适用于个人开发）
 ```
 $vsf /User/yangfan/vsf-test/vs-config.json
 ```
-方法三  参照test目录下的使用  （适用于团队开发）
+#####方法三  参照test目录下的使用  （适用于团队开发）
 项目目录下
 ```
 $npm install vsf
