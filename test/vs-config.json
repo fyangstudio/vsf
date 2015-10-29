@@ -1,6 +1,5 @@
 {
-  "rootFm": "./public/ftl/",
-  "rootRes": "./public",
+  "root": "./vs-root.json",
   "cookies": {
     "user": "yang",
     "key1": "value1",
@@ -10,7 +9,7 @@
     {
       "url": "/",
       "path": "test1.ftl",
-      "data": {"name": "yf"}
+      "data": "./vs-data/index/ftl-index.json"
     },
     {
       "url": "/list",
@@ -25,11 +24,7 @@
         "limit": 10,
         "offset": 0
       },
-      "output": {
-        "code": 200,
-        "result": [],
-        "total": 0
-      }
+      "output": "./vs-data/list/get-getlist.json"
     }
   ],
   "POST": [
