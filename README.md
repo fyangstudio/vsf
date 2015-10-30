@@ -29,7 +29,7 @@ $npm install vsf
 ```
 test.js
 ```
-var vsf = require('../node_modules/vsf');
+var vsf = require('vsf');
 var path = require('path');
 vsf(path.join(__dirname, './vs-config.json'), 'utf-8');
 ```
