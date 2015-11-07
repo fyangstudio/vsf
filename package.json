@@ -1,7 +1,7 @@
 {
   "name": "vsf",
   "description": "Quickly build virtual server for early projects",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "bin": {
     "vsf": "./bin/vsf"
   },
